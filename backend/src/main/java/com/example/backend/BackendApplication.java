@@ -20,17 +20,17 @@ public class BackendApplication implements CommandLineRunner {
 	
 	@Override
 	public void run(String... args) throws Exception {
-//	Book book = new Book();
-//	book.setTitle("Harry Potter and the sorcerer's stone");
-//	book.setSummary("Lorem ipsum");
-//	book.setCategory("Fantasy");
-//	bookRepository.save(book);
-//	
-//	Book book1 = new Book();
-//	book1.setTitle("Harry Potter and the chamber of secrets");
-//	book1.setSummary("Lorem ipsum");
-//	book1.setCategory("Fantasy");
-//	bookRepository.save(book1);
+	Book book = new Book();
+	book.setTitle("Harry Potter and the sorcerer's stone");
+	book.setSummary("Lorem ipsum");
+	book.setCategory("Fantasy");
+	bookRepository.save(book);
+	
+	Book book1 = new Book();
+	book1.setTitle("Harry Potter and the chamber of secrets");
+	book1.setSummary("Lorem ipsum");
+	book1.setCategory("Fantasy");
+	bookRepository.save(book1);
 	}
 
 }
